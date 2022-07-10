@@ -1,0 +1,93 @@
+.header{
+  color: purple;
+  text-align: center;
+  background-color: gold;
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav a{
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background-color: #111;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  background-color: #FF8C00;
+}
+
+iframe{
+  width: 500px;
+  height: 500px;
+  title: Alex Vtorov Assignment 1;
+  display: block;
+  border-style: none;
+}
+
+.leftbox{
+  float:left;
+  background-color: purple;
+  width: 30%;
+  height: 300px;
+}
+
+.middlebox{
+  float:left;
+  background-color: pink;
+  width: 40%;
+  height: 300px;
+}
+
+.rightbox{
+  float:right;
+  background-color: purple;
+  width: 30%;
+  height: 300px;
+}
+
+#p1{
+  font-family: 'Times New Roman';
+  color: red;
+  font-size: 12px;
+}
+
+#p2{
+  font-family: 'American Typewriter';
+  color: yellow;
+  font-size: 12px;
+}
+
+#p3{
+  font-family: 'Impact';
+  color: green;
+  font-size: 12px;
+}
+.box{
+  float:left;
+  margin-right: 20px;
+}
+.clear{
+  clear:both;
+}
+
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
