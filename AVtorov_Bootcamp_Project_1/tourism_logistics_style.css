@@ -1,0 +1,103 @@
+.container{
+  width: 600px;
+  height: 190px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#left_div{
+  float: left;
+  width: 180px;
+  height: 160px;
+  background-color: white;
+  border: solid powderblue;
+}
+
+#center_div{
+  float: left;
+  width: 180px;
+  height: 160px;
+  background-color: white;
+  border: solid powderblue;
+  margin-left: 20px;
+}
+
+.part_div:hover{
+  color: yellow;
+}
+
+#right_div{
+  float: right;
+  width: 180px;
+  height: 160px;
+  background-color: white;
+  border: solid powderblue;
+}
+
+#img1{
+  max-width:100%;
+  max-height:100%;
+}
+
+#img2{
+  max-width:100%;
+  max-height:100%;
+}
+
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav a{
+  display: inline-block;
+  color: turquoise;
+  padding: 10px;
+  text-align: center;
+  background-color: #111;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  background-color: #FF8C00;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  color: red;
+}
+
+.blurb{
+  color: turquoise;
+  font-family: monospace;
+}
+
+table, th, td{
+  border: 1px solid black;
+}
+
+th{
+  color: white;
+  background-color: red;
+}
+
+#greenboi{
+  background-color: lightgreen;
+}

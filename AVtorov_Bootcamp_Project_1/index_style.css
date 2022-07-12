@@ -1,0 +1,61 @@
+body{
+  background-image: url('https://www.wagrati.eu/media/images/flag-czech-republic-2000x1333.jpg');
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header{
+  color: darkorange;
+  text-align: center;
+  background-color: gold;
+}
+
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav a{
+  display: inline-block;
+  color: turquoise;
+  padding: 10px;
+  text-align: center;
+  background-color: #111;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  background-color: #FF8C00;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+#logo{
+  position:fixed;
+  top:0px;
+  right:0px;
+  opacity: 0.50;
+}
+
+#logo2{
+  position:fixed;
+  top:0px;
+  left:0px;
+  opacity: 0.25;
+}
